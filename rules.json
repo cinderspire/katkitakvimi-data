@@ -1,0 +1,113 @@
+{
+ "schema": 1,
+ "asOf": "2026-11-11",
+ "years": {
+  "2026": {
+   "dkRateBp": 2000,
+   "contribCapKurus": 39636000,
+   "monthlyMinWageKurus": 3303000,
+   "feeCapBpOfMinWage": 850,
+   "source": "https://www.egm.org.tr/bireysel-emeklilik/devlet-katkisi/"
+  }
+ },
+ "vesting": [
+  {
+   "years": 3,
+   "bp": 1500
+  },
+  {
+   "years": 6,
+   "bp": 3500
+  },
+  {
+   "years": 10,
+   "bp": 6000
+  }
+ ],
+ "pre2013": {
+  "clockStart": "2013-01-01",
+  "bands": [
+   {
+    "moreThanYears": 10,
+    "bonus": 3
+   },
+   {
+    "moreThanYears": 6,
+    "bonus": 2
+   },
+   {
+    "moreThanYears": 3,
+    "bonus": 1
+   }
+  ]
+ },
+ "retirement": {
+  "minYears": 10,
+  "minAge": 56
+ },
+ "withholdingBp": {
+  "lt10": 1500,
+  "ge10": 1000,
+  "retire": 500
+ },
+ "partial": {
+  "minYears": 5,
+  "minPaidMinWages": 5,
+  "maxShareBp": 5000,
+  "dkExtraBp": {
+   "evlilik": 2000,
+   "konut": 2000,
+   "afet": 2500
+  },
+  "stayYears": 3
+ },
+ "oks": {
+  "startDkKurus": 50000,
+  "annuityExtraBp": 500,
+  "ageAutoUnder": 45,
+  "employeeBp": 300,
+  "optOutRefundWd": 10
+ },
+ "deadlines": {
+  "exitFormsWd": 5,
+  "exitPayWd": 20,
+  "lumpSumWd": 10,
+  "optOutMonths": 2,
+  "partialDocsMonths": 2,
+  "besOptOutRefundWd": 10
+ },
+ "links": {
+  "besMobilIos": "https://apps.apple.com/tr/app/bes-mobil/id1475490337",
+  "besMobilAndroid": "https://play.google.com/store/apps/details?id=tr.org.egm.egmmobile",
+  "edevletEgm": "https://www.turkiye.gov.tr/emeklilik-gozetim-merkezi",
+  "edevletDk": "https://www.turkiye.gov.tr/emeklilik-gozetim-merkezi-bireysel-emeklilik-sistemi-devlet-katkisi-kullanim-ve-limit-bilgileri-sorgulama",
+  "egmGuide": "https://www.egm.org.tr/katilimcilar/katilimci-bilgilendirme-rehberi/",
+  "egmWrite": "https://egm.org.tr/bize-ulasin/bize-yazin/",
+  "egmDk": "https://www.egm.org.tr/bireysel-emeklilik/devlet-katkisi/",
+  "egmOks": "https://www.egm.org.tr/otomatik-katilim/oks-nedir/",
+  "egmOksDk": "https://www.egm.org.tr/otomatik-katilim/devlet-katkisi/",
+  "egmOksBes": "https://www.egm.org.tr/otomatik-katilim/oks--bes-karsilastirmasi/",
+  "gvk": "https://www.mevzuat.gov.tr/MevzuatMetin/1.4.193.pdf",
+  "dkGuidePdf": "https://cdn.egm.org.tr/sites/files/DK20Rehberi_07.01.2026-3103.pdf",
+  "minWage2026": "https://www.resmigazete.gov.tr/eskiler/2025/12/20251226-6.pdf"
+ },
+ "partner": {
+  "enabled": false,
+  "platforms": [],
+  "title": "",
+  "body": "",
+  "disclosure": "",
+  "button": "",
+  "url": ""
+ },
+ "other": {
+  "fundChangesPerYear": 12,
+  "maxFunds": 20,
+  "planChangesPerYear": 4,
+  "transferAfterYears": 2,
+  "transferAfterYearsIfTransferred": 1,
+  "transferWd": 9,
+  "feeCapYears": 5,
+  "childSince": "2021-05-25"
+ }
+}
